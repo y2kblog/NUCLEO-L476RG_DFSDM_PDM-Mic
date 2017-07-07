@@ -110,7 +110,7 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
   printf("\r\n***** Program start! *****\r\n");
-
+  HAL_Delay(100);
     if (HAL_DFSDM_FilterRegularStart_DMA(&hdfsdm1_filter0, Buff, FFT_SampleNum) != HAL_OK)
     {
         Error_Handler();
@@ -184,7 +184,8 @@ int main(void)
             printf("%.1f\t%f\t%f\r\n", FFT_frq[i], FFT_mag[i], FFT_dB[i]);
         }
 
-        HAL_Delay(1000);
+        //while(1);
+        HAL_Delay(2000);
         flag = true;        // <- Continuous transformation
   /* USER CODE END WHILE */
 
