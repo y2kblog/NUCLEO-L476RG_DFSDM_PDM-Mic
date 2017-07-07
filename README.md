@@ -20,5 +20,4 @@ System Workbench for STM32 (SW4STM32) + STM32CubeL4
 
 
 ## Pinout
-![](https://github.com/y2kblog/NUCLEO-L476RG_DFSDM_PDM-Mic/blob/master/images/Pinout.png =300x)
-
+<img src="https://github.com/y2kblog/NUCLEO-L476RG_DFSDM_PDM-Mic/blob/master/images/Pinout.png" width="300px">
