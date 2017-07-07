@@ -1,6 +1,7 @@
 # NUCLEO-L476RG_DFSDM_PDM-Mic
+This project acquires the PDM (Pulse Density Modulation) microphone signal using DFSDM (Digital filter for Sigma-Delta modulators interface) function of STM32 MCU and outputs its frequency characteristics by using FFT.
 
-## Example frequency response
+## Example
 ![](https://github.com/y2kblog/NUCLEO-L476RG_DFSDM_PDM-Mic/blob/master/images/FrequencyResponse1.png)
 
 ## MCU
